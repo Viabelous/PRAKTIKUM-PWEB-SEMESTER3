@@ -128,7 +128,7 @@ function tidakBukaLowongan(){
 
 
 function bannerHotel(){
-    var x = document.getElementById("namaHotel").innerHTML
+    var x = document.getElementById("namaHotel").innerHTML;
     if (x == "Hotel Clara Stella"){
         document.getElementById("namaHotel").innerHTML = ("La Clara Stella");
     } else if (x == "La Clara Stella"){
