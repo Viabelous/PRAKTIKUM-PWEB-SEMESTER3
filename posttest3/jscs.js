@@ -76,7 +76,7 @@ function lightMode(){
 
     document.body.style.backgroundColor = "peachpuff";
 
-    var atas = document.getElementsByClassName("upper");
+    var atas = document.getElementsByClassName("namaHotel");
     for(var i = 0; i < atas.length; i++) { 
         atas[i].style.backgroundColor = "darkcyan";
         atas[i].style.color = "white";
