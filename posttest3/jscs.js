@@ -76,11 +76,9 @@ function lightMode(){
 
     document.body.style.backgroundColor = "peachpuff";
 
-    var atas = document.getElementsByClassName("namaHotel");
-    for(var i = 0; i < atas.length; i++) { 
-        atas[i].style.backgroundColor = "darkcyan";
-        atas[i].style.color = "white";
-    }
+    var atas = document.getElementById("namaHotel");
+    atas.style.backgroundColor = "darkcyan";
+    atas.style.color = "white";
 
     var akhir = document.getElementById("footerid");
     akhir.style.backgroundColor = "peachpuff";
